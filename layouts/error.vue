@@ -15,9 +15,6 @@
     <div class="title">
       {{ message }}
     </div>
-    <p v-if="statusCode === 404">
-      <nuxt-link to="/"> Return to homepage </nuxt-link>
-    </p>
   </div>
 </template>
 
